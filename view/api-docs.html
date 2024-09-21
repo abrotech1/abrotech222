@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABRO TECH API - Documentation</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="menu-btn">☰ Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="/api">HOME</a></li>
+        <li><a href="/api/docs">APIS</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>API ENDPOINTS</h1>
+    <h2>DOWNLOADERS</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>REQUIRE</th>
+          <th>STATUS</th>
+          <th>REQUEST</th>
+          <th>ACTION</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ytmp3</td>
+          <td>n/a</td>
+          <td>Active</td>
+          <td>GET</td>
+          <td><a href="/api/ytmp3" class="test-btn">TEST</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>COPYWRITE • ©️ ABROTECH INC 2024</p>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-btn').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('visible');
+    });
+  </script>
+</body>
+</html>

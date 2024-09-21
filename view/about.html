@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About ABRO TECH</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="menu-btn">☰ Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="/api">HOME</a></li>
+        <li><a href="/api/docs">APIS</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>About ABRO TECH</h1>
+    <p>ABRO TECH specializes in providing innovative and reliable APIs for various applications. Our team of experts is dedicated to ensuring that your systems are connected and run smoothly.</p>
+    <img src="/assets/images/about-page-bg.png" alt="About Page Background">
+  </section>
+
+  <footer>
+    <p>COPYWRITE • ©️ ABROTECH INC 2024</p>
+  </footer>
+  
+  <script>
+    document.querySelector('.menu-btn').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('visible');
+    });
+  </script>
+</body>
+</html>

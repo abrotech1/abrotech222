@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABRO TECH API - Home</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="menu-btn">☰ Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/api/docs">APIS</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <img src="/assets/images/abrotech-logo.png" alt="AbroTech Logo">
+  </header>
+  
+  <section>
+    <h1>Welcome to ABRO TECH API</h1>
+    <p>An API (Application Programming Interface) allows applications to communicate with one another. It serves as an intermediary that processes requests and ensures smooth data sharing across platforms and software systems.</p>
+    <p>ABRO TECH offers a reliable and powerful set of APIs to meet your development needs, ensuring seamless integration with your applications.</p>
+    <img src="/assets/images/website-top.png" alt="API Page Top Image" class="responsive-image">
+  </section>
+
+  <section>
+    <h2>Why Choose ABRO TECH API?</h2>
+    <p>ABRO TECH's API platform is designed for both developers and businesses. We provide:</p>
+    <ul>
+      <li>Fast and Secure Endpoints</li>
+      <li>Scalable Solutions for Growing Businesses</li>
+      <li>Comprehensive Documentation and Support</li>
+    </ul>
+  </section>
+
+  <footer>
+    <img src="/assets/images/footer-bg.png" alt="Footer Background">
+    <p>COPYWRITE • ©️ ABROTECH INC 2024</p>
+  </footer>
+  
+  <script>
+    document.querySelector('.menu-btn').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('visible');
+    });
+  </script>
+</body>
+</html>

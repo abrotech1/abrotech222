@@ -1,0 +1,14 @@
+{
+  "name": "abro-tech-api",
+  "version": "1.0.0",
+  "description": "ABRO TECH API project",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "ABRO TECH",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

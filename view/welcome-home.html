@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABRO TECH - Welcome</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  <div class="banner">
+    <h1 id="welcomeText">WELCOME TO ABRO TECH WEBSITE</h1>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const welcomeText = document.getElementById('welcomeText');
+      setTimeout(() => {
+        welcomeText.textContent = 'WEBSITE IS ACTIVE';
+        window.location.href = '/api'; // Redirect to API home page
+      }, 3000);
+    });
+  </script>
+</body>
+</html>

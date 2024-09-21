@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact ABRO TECH</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="menu-btn">☰ Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="/api">HOME</a></li>
+        <li><a href="/api/docs">APIS</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Contact Us</h1>
+    <p>For any inquiries, feel free to reach out to us via email or phone. We are here to assist you with any questions or support you may need regarding our APIs.</p>
+    <img src="/assets/images/contact-bg.png" alt="Contact Background">
+  </section>
+
+  <footer>
+    <p>COPYWRITE • ©️ ABROTECH INC 2024</p>
+  </footer>
+  
+  <script>
+    document.querySelector('.menu-btn').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('visible');
+    });
+  </script>
+</body>
+</html>
